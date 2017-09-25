@@ -1,0 +1,10 @@
+---
+- homebrew:
+  update_homebrew: yes
+  upgrade_all: yes
+
+- homebrew: name=nginx state=present
+  become_user: imranbaig
+  with_items:
+   - ruby
+   - nginx

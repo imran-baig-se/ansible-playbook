@@ -1,0 +1,12 @@
+---
+
+executables:
+  brew: /usr/local/bin/brew
+  zsh: /usr/local/bin/zsh
+
+
+admin:
+  user:
+    name: admin
+    group: staff
+    shell: "{{ executables.zsh }}"

@@ -1,0 +1,7 @@
+---
+- name: install nginx
+  hosts: mac-machine
+  remote_user: imranbaig
+  become: yes
+  roles:
+      - { role: common-mac,   tags: [ 'webserver' ] }
