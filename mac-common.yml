@@ -1,5 +1,0 @@
----
-- hosts: mac-machine
-  remote_user: imranbaig
-  roles:
-      - { role: common-mac, tags: [webserver] }

@@ -1,5 +1,0 @@
----
-- name: install ngnix
-  import_tasks: mac.yml
-  tags:
-    - webserver
