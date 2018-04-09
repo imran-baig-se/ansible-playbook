@@ -11,6 +11,4 @@ jobs:
       - run:
           name: Print the Current Time
           command: date
-       - store_test_results:
-         path: test-results
 
